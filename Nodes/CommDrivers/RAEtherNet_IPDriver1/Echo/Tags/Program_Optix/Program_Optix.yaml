@@ -1,0 +1,88 @@
+Name: 'Program:Optix'
+Type: FolderType
+Children:
+- Name: free_running_tmr
+  Type: TIMER
+  DataType: TIMER
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "246b7f044d9fcd4e800eabece2868730",
+     "Namespace": 7
+    },
+    "Body": {
+     "ACC": 0,
+     "DN": false,
+     "EN": false,
+     "PRE": 0,
+     "TT": false
+    }
+   }
+  Children:
+  - Name: ACC
+    Id: g=422f91bc1671b0e24a10fb804f13cb6b
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Optix.free_running_tmr.ACC"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Optix.free_running_tmr.DN"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Optix.free_running_tmr.EN"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Optix.free_running_tmr.PRE"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:Optix.free_running_tmr.TT"
+- Name: optix_bits
+  Id: g=16586c991328bcc4d7cab2f595735680
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Optix.optix_bits"
+- Name: numeric_input
+  Id: g=1896ccdf07a84d37e0baedc043694889
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Optix.numeric_input"
